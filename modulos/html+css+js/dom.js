@@ -1,5 +1,5 @@
 
-function domWrapper() {
+(function domWrapper() {
   // variables y funciones para manejar el DOM:
   var input = document.getElementById("nueva-tarea");
   var buttonAgregar = document.getElementById("agregar");
@@ -36,6 +36,4 @@ function domWrapper() {
   buttonBorrar.onclick = handleBorrar;
 
   mostrarTareas();
-}
-
-domWrapper();
+})()

@@ -1,4 +1,4 @@
-function tareasWrapper() {
+(function tareasWrapper() {
   var tareas = ["tarea 1", "tarea 2", "tarea 3", "tarea 4", "tarea 5"];
 
   function agregarTarea(tarea) {
@@ -16,6 +16,4 @@ function tareasWrapper() {
   APP.agregarTarea = agregarTarea;
   APP.borrarTareas = borrarTareas;
   APP.obtenerTareas = obtenerTareas;
-}
-
-tareasWrapper();
+})()
